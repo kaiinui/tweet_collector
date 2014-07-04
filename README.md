@@ -9,9 +9,10 @@ Usage
 1. `git clone git@github.com:kaiinui/tweet_collector.git`
 2. `bundle`
 3. Create your Firebase and Twitter app.
-4. rename `config/keys.yml.example` to `config/keys.yml` and write Twitter App Keys & Firebase Base URI.
-5. You can edit words to track at `config/words.yml` (currently tracking "xvideos", "xhamster", everyone would like.)
-6. `foreman start worker` to run on local.
+4. delete line `config/keys.yml` on `.gitignore`
+5. rename `config/keys.yml.example` to `config/keys.yml` and write Twitter App Keys & Firebase Base URI.
+6. You can edit words to track at `config/words.yml` (currently tracking "xvideos", "xhamster", everyone would like.)
+7. `foreman start worker` to run on local.
 
 You can find collected tweets on your Firebase console.
 
